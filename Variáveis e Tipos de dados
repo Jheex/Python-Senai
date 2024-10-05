@@ -1,0 +1,31 @@
+Exercícios sobre variáveis e tipos de dados
+
+#Crie um programa que peça dois números inteiros e imprima a soma deles
+num1 = int(input ("Digite um número\n",))
+num2 = int(input ("Digite outro número\n",))
+soma = num1+num2
+print("A soma dos números são", soma)
+print()
+#------------------------------------------------------------------------------------#
+#Escreva um código que solicite um numero decimal e imprima o seu dobro
+decimal = float(input("Digite um número "))
+dobro = float(decimal*2)
+print("O dobro de ", decimal)
+print("é",dobro)
+#------------------------------------------------------------------------------------#
+#faça um programa que pergunte o nome do usuario e exiba uma mensagem de boas-vindas
+nome = str(input("Digite seu nome \n"))
+print("\nBem-vindo,", nome)
+print()
+#------------------------------------------------------------------------------------#
+#crie um programa que peça um número inteiro e um float some-os, e exiba o resultado junto com uma mensagem que inclua o nome do usuário
+nome = input("Qual seu nome?\n")
+numero1 = int(input("Digite um número inteiro "))
+numero2 = int(input("Digite um número decimal "))
+soma = float(numero1+numero2)
+print(nome,"o resultado é ")
+print(soma)
+print()
+#------------------------------------------------------------------------------------#
+
+
