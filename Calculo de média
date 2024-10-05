@@ -1,0 +1,48 @@
+Codigo para calulcar média de nota em VISUALG
+Algoritmo "calculo de media"
+
+Var
+
+nome: caractere
+idade: inteiro
+turma: caractere
+notaportugues, notamatematica, notahistoria, notageografia, media: real
+
+Inicio
+escreval("Digite seu nome")
+leia(nome)
+escreval("Digite sua idade")
+leia(idade)
+escreval("Digite sua turma")
+leia(turma)
+escreval("Digite sua nota de português")
+leia(notaportugues)
+escreval("Digite sua nota de matemática")
+leia(notamatematica)
+escreval("Digite sua nota de história")
+leia(notahistoria)
+escreval("Digite sua nota de geografia")
+leia(notageografia)
+
+limpatela
+
+media <-(notaportugues+notamatematica+notahistoria+notageografia)/4
+
+escreval("Seu nome é: ", nome)
+escreval("Sua idade é: ", idade)
+escreval("Sua turma é: ", turma)
+escreval("Sua nota de português é: ", notaportugues)
+escreval("Sua nota de matemática é: ", notamatematica)
+escreval("Sua nota de história é: ", notahistoria)
+escreval("Sua nota de geografia é: ", notageografia)
+escreval("Sua media é: ", media)
+
+se(media>5) entao
+escreval("")
+escreval("Aprovado")
+senao
+escreval("Reprovado")
+
+fimse
+
+Fimalgoritmo
